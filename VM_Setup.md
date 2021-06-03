@@ -7,48 +7,7 @@ First thing you want to do is download the ISOs to launch your VMs. All of these
 
 Steps:
 ------
-  Download Windows 10 (you can use your own Windows 10 box if you have one set up, recommend you take a snapshot to save it at a known working state). These steps will give you the latest version of Windows available.
-    Go to reference [1] 
-    Select Windows 10 and click Confirm
-    Choose English and click Confirm
-    Click 64-bit
-    Your download should begin, if your bandwidth can take it, continue to the next step during download.
-  Download Kali Linux (you can use your own Kali box if you have one set up, recommend you take a snapshot to save it at a known working state).
-    Go to reference [2]
-    Click on Virtual Machines
-    Click the download button for the 64-bit VirtualBox OVA
-    Your download should begin, if your bandwidth can take it, continue to the next step during download.
-  Set up Windows 10 VM
-    Add a new VM in VirtualBox [5]
-    Memory 2048 MB or more
-    Attach the ISO file to the VM
-    Click on Network and change Attached to: Not attached
-    Start the VM
-    Set up Windows 10 use ref. [6] and scroll down to "How to do a clean installation of Windows 10". Follow the OOBE steps as well. Additional notes below that aren't covered in that article. 
-    Use Windows 10 Pro x64
-    On step 10 you'll have to select your drive and click on New to partition your drives
-    For the OOBE step 10 select offline account
-    Once your out of the OOBE experience take a snapshot of the VM so that you can always revert back to this fresh out of the box W10 machine.
-    Disable Windows Firewall [7]
-    Disable Windows Security [8]
-    Take another snapshot
-  Set up Kali Linux
-    Import the Kali OVA [9]
-    Take a snapshot to keep a fresh Kali instance
-    Default username/password is kali/kali. Change the password and take another snapshot
-  Set up virtual network
-    You will want to set up a network so that the VMs can talk to each other and to the internet [10]
-    Put both VMs on your Nat Network
-    From you Windows VM ping your 
-  Download Cobalt Wipe (Strike) on the Kali VM. Use at your own risk. Do your own due diligence for ease of mind.
-    Go to reference [3] from within your Kali VM
-    Click on Code and Download ZIP
-    Your download should begin
-    Follow the instructions to unzip the files but don't run the .sh commands
-    Go to reference [3] from within your Kali VM
-    Click Download
-    Your download should begin
-    Unzip the Malleable zip into it's own folder
+
 
 References:
 [1] https://www.microsoft.com/en-us/software-download/windows10ISO
