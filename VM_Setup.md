@@ -1,4 +1,4 @@
-Virtual Machine Setups
+# Virtual Machine Setups
 note:This assumes you'll also be using VirtualBox [4] and know how to install it for your Host machine. Depending on download speeds, estimated ~2 hours.
 
 Download & Set up VMs
