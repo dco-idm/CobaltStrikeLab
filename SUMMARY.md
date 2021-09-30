@@ -8,3 +8,7 @@
 * [2. Configuring Your CobaltStrike Server](setup/2.-configuring-your-cobaltstrike-server.md)
 * [3. Delivering the Payload](setup/3.-deliver-payload.md)
 
+## WHY
+
+* [In Progress...](why/in-progress....md)
+
